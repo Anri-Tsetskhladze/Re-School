@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E90FF; 
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background-color: #282c34;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+form {
+    width: 50%; 
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    border: 2px solid gold; 
+}
+
+form h2, form h3 {
+    text-align: center;
+    color: #1E90FF; 
+    font-size: 1.5em;
+}
+
+form label {
+    font-size: 1.1em;
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+form .box, form select, form input[type="radio"], form input[type="checkbox"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 10px 10px 20px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 1.1em;
+    display: block;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: calc(50% - 20px); 
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #333;
+}
+
+form select, form input[type="radio"], form input[type="checkbox"] {
+    margin: 10px 0;
+}
