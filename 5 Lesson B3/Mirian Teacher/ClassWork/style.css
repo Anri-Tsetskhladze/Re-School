@@ -1,0 +1,23 @@
+.centered {
+    text-align:center;
+}
+
+#black-background {
+    background-color: black;
+}
+
+* white-text{
+    color:white;
+}
+.green-background{
+    background-color: green;
+}
+#red-text {
+    color: red;
+}
+.big-text{
+    font-size: large;
+}
+.small-text{
+    font-size: small;
+}

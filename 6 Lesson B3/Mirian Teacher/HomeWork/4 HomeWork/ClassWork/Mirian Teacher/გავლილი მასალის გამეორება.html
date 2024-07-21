@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>გავლილი მასალის გამეორება</title>
+    <link rel="stylesheet" href="გავლილი მასალის გამეორება.css">
+</head>
+<body>
+<div class="container">
+    <h1>პირველი დონის სათაური</h1>
+    <p>ტექსტი Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nostrum beatae? Tenetur, eaque unde cum eum neque voluptate voluptatem repudiandae omnis consequuntur reprehenderit magnam aliquam, nihil amet id? Quasi, sint.</p>
+    <h2>მეორე დონის სათაური</h2>
+    <h6>ყველაზე პატარა- ბოლო დონის სათაური</h6>
+</div>  
+
+<div class="link-container">
+    <a href="https://www.google.com">Google</a>
+</div>
+
+<div class="list-container">
+    <!-- დაულაგებელი სია -->
+    <ul>
+        <li>Georgia</li>
+        <li>Portugal</li>
+        <li>Turkey</li>
+        <li>ჩეხეთი</li>
+    </ul>
+
+    <!-- დალაგებული სია -->
+    <ol start="27">
+        <li>Georgia</li>
+        <li>Portugal</li>
+        <li>Turkey</li>
+        <li>ჩეხეთი</li>
+    </ol>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="5">Re:school B3 Batumi Students</th>
+        </tr>
+        <tr>
+            <th>სახელი</th>
+            <th>გვარი</th>
+            <th>ასაკი</th>
+            <th>სქესი</th>
+            <th>ჯგუფი</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td>ალექსანდრე</td>
+            <td>თენიეშვილი</td>
+            <td>13</td>
+            <td>მამრი</td>
+            <td rowspan="3" style="font-size: 50px">B3</td>
+        </tr>
+        <tr> 
+            <td>გიორგი</td>
+            <td>თენიეშვილი</td>
+            <td>23</td>
+            <td>მამრი</td>
+        </tr>
+        <tr> 
+            <td>ამიკო</td>
+            <td>თენიეშვილი</td>
+            <td>18</td>
+            <td>მამრი</td>
+        </tr>
+    </tbody>
+</table><br><br><br>
+
+<form>
+    <label for="name">სახელი</label>
+    <input type="text" id="name" name="name">
+
+    <label for="lastname">გვარი</label>
+    <input type="text" id="lastname" name="lastname">
+
+    <label for="email">გმეილი</label>
+    <input type="email" id="email" name="email" placeholder="email, such as: abc@gmail.com">
+
+    <label for="password">პაროლი</label>
+    <input type="password" id="password" name="password" placeholder="8 სიმბოლოზე მეტი">
+
+    <h3>სქესი:</h3>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">მამრობითი</label>
+    
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">მდედრობითი</label>
+
+    <label for="country">ქვეყანა:</label>
+    <select id="country" name="country">
+        <option value="Georgia" selected>საქართველო</option>
+        <option value="Germany">გერმანია</option>
+        <option value="Great Britain">დიდი ბრიტანეთი</option>
+        <option value="zimbabwe">ზიმბაბვე</option>
+        <option value="canada">კანადა</option>
+        <option value="france">საფრანგეთი</option>
+        <option value="moroco">მოროკო</option>
+    </select>
+
+    <label for="userAggreement">ვეთანხმები კონფიდენციალურობის პოლიტიკას
+        <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a>
+    </label>
+    <input type="checkbox" id="userAggreement" name="userAggreement" value="agreement">
+
+    <label for="newsAggreement">გსურთ სიახლეების გამოწერა</label>
+    <input type="checkbox" id="newsAggreement" name="newsAggreement" value="newsletter">
+
+    <input type="submit" value="გაგზავნა">
+    <input type="reset" value="გასუფთავება">
+</form>
+</body>
+</html>
