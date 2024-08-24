@@ -1,0 +1,26 @@
+/* Universal selector */
+
+* {
+    font-size: 80px;
+}
+
+/* Type Selector */
+h2 {
+    color: cadetblue;
+}
+
+/* Class Selector */
+.black-background {
+    background-color: yellow;
+    color: aquamarine;
+}
+
+/* Class Selector */
+.centered {
+    text-align: center;
+}
+
+/* ID Selector */
+#tiny-header {
+    color: blueviolet;
+}

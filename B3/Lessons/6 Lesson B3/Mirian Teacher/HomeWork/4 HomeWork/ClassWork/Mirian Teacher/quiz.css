@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    background-color: #fff;
+    color: #333;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #1E90FF; /* Blue color */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+form {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input[type="text"], form input[type="number"], form textarea {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    display: block;
+    background-color: #fff;
+}
+
+form input[type="text"]:focus, form input[type="number"]:focus, form textarea:focus {
+    border-color: #1E90FF;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+    outline: none;
+}
+
+section input[type="radio"] {
+    margin: 10px 0;
+    width: auto;
+}
+
+section label {
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: calc(50% - 12px); 
+    padding: 12px;
+    margin: 20px 6px;
+    background-color: #1E90FF; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #005bb5;
+}
+
+form p {
+    background-color: transparent;
+    padding: 10px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+form section {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width:70%;
+            background-color: whitesmoke;
+            color: brown;
+            margin:auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            margin: auto;
+            display: block;
+            width: 50%;
+            background-color: antiquewhite;
+        }
+        p {
+            background-color: white;
+        }
+        input {
+            width: 100%;
+            color: burlywood;
+        }
+        section input {
+            width: auto;
+        }
+        textarea {
+            width: 100%;
+        }
+    </style>
+</body>
+<div>
+    <h2> HTML Quiz</h2>
+<form>
+ <input  type="text" id="name" name="name" placeholder="სახელი">
+ <input type="text" id="lastname" name="lastname" placeholder="გვარი">
+ <input type="number" id="age" name="age" placeholder="ასაკი">
+<p> HTML ითარგმენა როგორც:</p>
+
+<section>
+    <input type="radio" name="q1" id="answer 1" value="Hypertext Markup Language"> 
+    <label for="ans1" >Hypertext Markup Language</label><br>
+    <input type="radio" name="q1" id="answer 2" value="Hypertext Mark Language">
+    <label for="ans2" >Hypertext Markup Language</label><br>
+    <input type="radio" name="q1" id="answer 3" value="Hypertext Mark Language">
+    <label for="ans2" >Hypertext Markup Language</label><br>
+    <input type="radio" name="q1" id="answer 4" value="Hypertext Mark Language">  
+    <label for="ans2" >Hypertext Markup Language</label><br>
+</section>
+<p> CSS ითარგმენა როგორც:</p>
+<section>
+    <input type="radio" name="q2" id="answer 1" value="Cascading Style"> 
+    <label for="ans1" >Cascading Style</label><br>
+    <input type="radio" name="q2" id="answer 2" value="Cascading Style">
+    <label for="ans2" >Xascading Style</label><br>
+    <input type="radio" name="q2" id="answer 3" value="არ ითარგმენაბა">
+    <label for="ans2" >არ ითარგმენაბა</label><br>
+    <input type="radio" name="q2" id="answer 4" value="Cascading Stylesheet">  
+    <label for="ans2" >Cascading Stylesheet</label><br>
+</section>
+<p> <label for="comment"> დაგვიტოვე კომენტარი</label><p> 
+<textarea id="comment" name="comment" rows="10"> 
+
+</textarea>
+<input style="background-color: aqua;" type="submit" value="ფორმის გაგზავნა">
+
+</form>
+</div>
+</html>

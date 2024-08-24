@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საკლასო სამუშაო</title>
+    <link rel="stylesheet" href="classwork1.css">
+</head>
+<body>
+    <form>
+        <h2>რეგისტრაციის ფორმა</h2>
+
+        <!-- Select -->
+        <label for="country">საყვარელი ფერი:</label>
+        <select id="country" class="box">
+            <option value="red" selected>წითელი</option>
+            <option value="yellow">ყვითელი</option>
+            <option value="black">შავი</option>
+            <option value="gray">ნაცრისფერი</option>
+            <option value="brown">ყავისფერი</option>
+            <option value="tan">კანისფერი</option>
+        </select>
+
+        <!-- Radio -->
+        <h3>დასავენებელი ადგილები:</h3>
+        <input type="radio" id="sea" name="vacation" value="sea">
+        <label for="sea">ზღვა</label>
+        
+        <input type="radio" id="mountain" name="vacation" value="mountain">
+        <label for="mountain">მთა</label>
+
+        <!-- Checkbox -->
+        <h3>საყვარელი ცხოველი:</h3>
+        <input type="checkbox" id="cat" name="animal" value="cat">
+        <label for="cat">კატა</label>
+        
+        <input type="checkbox" id="dog" name="animal" value="dog">
+        <label for="dog">ძაღლი</label>
+        
+        <input type="checkbox" id="tiger" name="animal" value="tiger">
+        <label for="tiger">ვეფხვი</label>
+
+        <input type="submit" value="გაგზავნა" class="box">
+        <input type="reset" value="გასუფთავება" class="box">
+    </form>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>გავლილი მასალის გამეორება</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    table {
+        width: 50%;
+        margin: auto;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    form{
+        width: 5%;
+        margin:auto;
+    }
+</style>
+<body style="background-color: white; color: gold;">
+
+ <div style="background-color: black; color:white; width: 50%; margin: auto; text-align: center">  
+    <h1> პირველი დონის სათაური</h1>
+    <p> ტექსტი Lorem ipsum dolor sit<br>
+        amet consectetur adipisicing elit. <br>
+        Quibusdam, nostrum beatae? Tenetur,<br>
+        eaque unde cum eum neque voluptate<br>
+        voluptatem repudiandae omnis consequuntur <br>
+        reprehenderit magnam aliquam,<br>
+        nihil amet id? Quasi, sint.<br> </p>
+    <h2> მეორე დონის სათაური</h2>
+    <h6> ყველაზე პატარა- ბოლო დონის სათაური </h6>
+</div>  
+
+<!-- ჰიბერბმულის- ლინკის დამატება-->
+<a href="https://www.google.com" > </a>
+
+
+<!-- დაულაგებელი სია-->
+<ul type="square">
+    <li> Georgia</li>
+    <li> Portugal</li>
+    <li> Turkey</li>
+    <li> ჩეხეთი </li>
+</ul>
+
+<!-- დალაგებული სია-->
+<ol type="a" start="27">
+    <li> Georgia</li>
+    <li> Portugal</li>
+    <li> Turkey</li>
+    <li> ჩეხეთი </li>
+</ol>
+
+<table >
+
+    <thead>
+        <tr>
+            <th colspan="5"> Re:school B3 Batumi Students</th>
+        </tr>
+
+            <tr>
+                <th> სახელი </th>
+                <th> გვარი </th>
+                <th> ასაკი </th>
+                <th> სქესი</th>
+                <th> ჯგუფი </th>
+            </tr>
+        <tbody> <!-- ძირითადი ინფო -->
+            <tr> 
+                <td> ალექსანდრე</td>
+                <td> თენიეშვილი</td>
+                <td> 13</td>
+                <td> მამრი</td>
+                <td rowspan="3" style="font-size: 50px"> B3</td>
+            </tr>
+
+            <tr> 
+                <td> გიორგი</td>
+                <td> თენიეშვილი</td>
+                <td> 23</td>
+                <td> მამრი</td>
+            </tr>
+
+            <tr> 
+                <td> ამიკო</td>
+                <td> თენიეშვილი</td>
+                <td> 18</td>
+                <td> მამრი</td>
+            </tr>
+
+
+
+            <tfoot> <!-- ქვემო ნაწილი-->
+
+
+            </tfoot>
+        </tbody>
+    </thead>
+</table><br><br><br>
+
+<form>
+    <label for="name"> სახელი</label><br><br>
+    <input type="text" id="name"> <br>
+
+    <label for="lastname" id="lastname"> გვარი</label><br><br>
+    <input type="text" id="lastname"> <br><br>
+
+    <label for="email">გმეილი</label><br>
+    <input type="email" id="email" placeholder="email sudh as: abc@gmail.com"><br><br>
+
+    <label for="password">პაროლი</label><br><br>
+    <input type="password" id="password" placeholder="8 სიმბოლოზე მეტი"><br><br>
+
+    <input type="submit" value="გაგზავნა"><br><br>
+    <input typr="reset" value="გასუფთავება"><br><br>
+
+<!-- ChecBox-->
+
+<!-- Gender male-->
+
+<h3> სქესი: </h3> <br>
+<label for="male"> მამრობითი</label><br><br>
+<input type="radio" id="male" name="gender" value="male"><br><br>
+
+<!-- Gender female-->
+
+<label for="female"> მდედრობითი</label><br><br>
+<input type="radio" id="demale" name="gender" value="female"><br><br><br><br>
+
+<!--select-->
+<label for="country">ქვეყანა:</label>
+<select id="country">
+    <option value="Georgia" selected>საქართველო</option>
+    <option value="Germany">გერმანია</option>
+    <option value="Great Britain">დიდი ბრიტანეთი</option>
+    <option value="zimbabwe">ზიმბაბვე</option>
+    <option value="canada">კანადა</option>
+    <option value="france">საფრანგეთი</option>
+    <option value="moroco">მოროკო</option>
+</select><br><br>
+<!--userAggreement -->
+<label for="userAggreement"> ვეთანხმები კონფიდენციალურობის პოლიტიკას
+    <a href="https://policies.google.com/privacy?hl=en-US">
+</label><br>
+
+<input type="checkbox" name="userAggreement" value="newsAggreement"><br>
+
+<!-- newsAggreement-->
+<label for="newsAggreement"> გსურთ სიახლეების გამოწერა</label><br>
+<a href="https://www.apple.com/apple-news/"></label><br>
+
+<input type="checkbox" name="newsAggreement" value="newsAggreement"><br>
+
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+    
+
+
